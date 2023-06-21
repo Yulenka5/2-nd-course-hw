@@ -3,3 +3,108 @@
     padding: 0;
 }
 
+body {
+    font-family: "Montserrat";
+  }
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}  
+
+.header {
+    height: 1024px;
+    background-image: url(./img/fon1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading-big {
+    padding-top: 217px;
+    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.header-text {
+    padding-bottom: 44px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.header-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button {
+    width: 234px;
+    height: 48px;
+    background: #9C0332;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.box {
+    height: 556px;
+    background-image: url(./img/fon2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 32px;
+    align-items: center;
+}
+
+.box-item {
+    width: 379px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.box-item1 {
+    background-image: url(./img/game1.jpg);
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-item2 {
+    background-image: url(./img/game2.jpg);
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-item3 {
+    background-image: url(./img/game3.jpg);
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-text {
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
