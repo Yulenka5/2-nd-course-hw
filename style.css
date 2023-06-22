@@ -21,6 +21,7 @@ body {
 }
 
 .heading-big {
+    width: 760px;
     padding-top: 217px;
     padding-bottom: 32px;
     font-style: normal;
@@ -31,6 +32,7 @@ body {
 }
 
 .header-text {
+    width: 480px;
     padding-bottom: 44px;
     font-style: normal;
     font-weight: 300;
@@ -52,6 +54,7 @@ body {
     width: 234px;
     height: 48px;
     background: #9C0332;
+    border: none;
     border-radius: 30px;
     font-style: normal;
     font-weight: 400;
