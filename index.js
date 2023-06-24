@@ -1,4 +1,4 @@
-alert('Привет, мир!'); 
+/*alert('Привет, мир!'); 
 
 let a = 10;
 a = 20;
@@ -50,7 +50,7 @@ alert(user[info]);
 console.log(user);
 
 let user = prompt("Ваше имя?");
-alert(`Привет, ${user}!`);
+alert(`Привет, ${user}!`);*/
 
 
 

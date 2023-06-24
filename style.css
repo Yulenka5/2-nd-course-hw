@@ -64,7 +64,6 @@ body {
 }
 
 .box {
-    height: 556px;
     background-image: url(./img/fon2.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -111,3 +110,43 @@ body {
     padding-bottom: 32px;
 }
 
+@media (max-width:376px){
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }  
+
+    .header {
+        background-image: url(./img/fon-mob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .heading-big {
+        width: 343px;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+    .header-text {
+        width: 343px;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        }
+        
+    .button {
+        margin-left: 64px;
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .box-item {
+        grid-column: span 4;
+        width: 343px;
+    }
+}
