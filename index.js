@@ -96,6 +96,68 @@ if (monthNumber > 0 && monthNumber <= 12) {
 
 else { 
     alert ('Неверное значение')};*/
+
+let i = 0;
+
+while (i < 2) {
+	console.log('Привет!');
+	i++;
+};
+
+
+let w = 0;
+
+while (w < 6) {
+	console.log(w);
+	w++;
+};
+
+let c = 7;
+
+while (c <= 22) {
+	console.log(c);
+	c++;
+};
+
+const obj = {
+    Коля: 200,
+    Вася: 300,
+    Петя: 400,
+}
+
+for (const key in obj) {
+        alert (`${key}: зарплата ${obj[key]} долларов`)
+    }
+
+let n = 1000;
+let a = 0;
+while (n > 50) {
+    n /= 2;
+    a++;
+}
+console.log (a);
+console.log(n);
+
+
+for (let day = 5; day < 32; day+=7) {
+        console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+    
+
     
 
 
