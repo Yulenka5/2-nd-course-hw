@@ -97,7 +97,7 @@ if (monthNumber > 0 && monthNumber <= 12) {
 else { 
     alert ('Неверное значение')};*/
 
-let i = 0;
+/*let i = 0;
 
 while (i < 2) {
 	console.log('Привет!');
@@ -141,13 +141,152 @@ console.log(n);
 
 for (let day = 5; day < 32; day+=7) {
         console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
+}*/
+
+/*const user = {
+    name: 'Сергей',
+	city: 'Екатеринбург',
+	age: '29 лет',
+    getInfo () {
+        console.log(`Пользователь ${this.name}, возраст ${this.age}, проживает в городе ${this.city}`); 
+    }
+};
+
+user.getInfo();
+
+function getRectangleArea() {
+    return this.width * this.height;
+};
+
+function getRectanglePerimeter() {
+     return 2 * this.width + this.height;    
 }
 
+const square1 = {
+    width: 35,
+    height: 40,
+    getRectangleArea: getRectangleArea,
+    getRectanglePerimeter: getRectanglePerimeter,
+}
 
+const square2 = {
+    width: 4,
+    height: 5,
+    getRectangleArea: getRectangleArea,
+    getRectanglePerimeter: getRectanglePerimeter,
+}
 
+console.log(square1.getRectangleArea());
+console.log(square1.getRectanglePerimeter());
+console.log(square2.getRectangleArea());
+console.log(square2.getRectanglePerimeter());*/
 
+//1
 
+/*function lesserNumber(a, b) {
+    if (a <= b) {
+        return a;
+    }    else {
+        return b;
+    }
+}
 
+console.log(lesserNumber(8, 4));
+console.log(lesserNumber(6, 6));
+
+//2
+
+function Number(n) {
+    if (n % 2 == 0) {
+        return 'Число четное';
+    } else {
+        return 'Число нечетное';
+    }
+}
+
+console.log(Number(7));
+
+//3.1
+
+function square(d) {
+    let square = d ** 2;
+    console.log(`${square}`);
+}
+square(5);
+
+//3.2
+
+function square(c) {
+    return c ** 2;
+}
+
+console. log(square(6));
+
+//4
+
+function age() {
+    let age = prompt('Сколько вам лет?');
+    if (age < 0) {
+        alert('Вы ввели неправильное значение');
+    } else if (age >= 0, age <= 12) {
+        alert('Привет, друг!');
+    } else if (age >= 13) {
+        alert('Добро пожаловать!');
+    }
+}
+
+age();
+
+//5
+
+const test = (x, y) => {
+    if (isNaN(x) || isNaN(y)) {
+        return 'Одно или оба значения не являются числом';
+    } else {
+        return x * y;
+    }
+}
+
+console.log(test(5, 6));
+
+//6
+
+const chekNum = (n) => {
+    n = prompt('Введите число');
+    if (!isNaN(n)) {
+        return `${n} в кубе равняется ${n ** 3}`;
+    } else {
+        return 'Переданный параметр не является числом';
+    }
+}
+ console.log(chekNum());
+
+//7
+
+function getPerimeter() {
+    return 2 * 3.14 * this.radius; 
+}
+
+function getArea() {
+    return 3.14 * this.radius **2;
+}
+
+const circle1 = {
+    radius: 30,
+    getArea: getArea,
+    getPerimeter: getPerimeter,
+}
+
+const circle2 = {
+    radius: 14,
+    getArea: getArea,
+    getPerimeter: getPerimeter,
+}
+
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());*/
  
 
 
