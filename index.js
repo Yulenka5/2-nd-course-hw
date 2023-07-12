@@ -289,6 +289,117 @@ console.log(circle2.getArea());
 console.log(circle2.getPerimeter());*/
  
 
+//2.6
+
+//1
+
+/*const numbs = [1, 5, 4, 10, 0, 3];
+
+for (let i = 0; i < numbs.length; i++) {
+	if (numbs[i] == 0) break;
+	console.log(numbs[i]);
+};
+
+//2
+
+const arr = [1, 5, 4, 10, 0, 3];
+console.log(arr.indexOf(4));
+
+//3
+
+let value = [1, 3, 5, 10, 20];
+value = value.join('');
+console.log(value);
+
+//4
+
+let product = [];
+
+for (let i = 0; i < 3; i++) {
+	product[i] = []; 
+	
+	for (let j = 0; j < 3; j++) {
+		product[i].push(1);
+	}
+}
+
+console.log(product);
+
+//5
+
+let day = [1, 1, 1];
+day.push(2, 2, 2);
+console.log(day);
+
+//6
+
+let temp = [9, 8, 7, 'a', 6, 5];
+temp = temp.sort();
+temp.pop(); 
+console.log(temp);
+
+//7
+
+const numbs = [9, 8, 7, 6, 5];
+let userNumbs = prompt('Угадай число');
+if (userNumbs >= 5 && userNumbs <= 9) {
+    alert('Угадал');
+} else {
+    alert('Не угадал');
+}
+
+//8
+
+let greetings = 'abcdef';
+let arrayGreetings = greetings.split('');
+arrayGreetings = arrayGreetings.reverse();
+console.log(arrayGreetings.join(''));
+
+//9
+
+let calk = [[1, 2, 3,],[4, 5, 6]];
+let result = [].concat(...calk);
+console.log(result);
+
+//10
+
+const arr = [2, 5, 6, 7, 9];
+for (let index = 0; index < arr.length -1; index++) {
+    console.log(arr[index] + arr[index+1]);
+}
+
+//11
+
+const nums = (arr) => {
+    const trans = arr.map((num) => num ** 2);
+    return trans;
+}
+
+console.log(nums([10, 4, 6, 3, 8]));*/
+
+//12 не могу понять..как сделать правильно, запуталась 
+
+const getLengthWords = (word) => {
+    const strLength = word.map((str) => str.Length);
+    return strLength;
+}
+
+console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
+
+//13
+
+/*function filterPositive(array) {
+    let result = [];
+    for (let index = 0; index < array.length; index++) {
+        if (array[index] < 0) {
+            result.push(array[index]);
+        }
+    }
+    return result;
+  }
+
+  console.log(filterPositive([-1, 0, 5, -10, 56])); 
+  console.log(filterPositive([-25, 25, 0, -1000, -2]));*/
 
 
 
