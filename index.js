@@ -375,13 +375,18 @@ const nums = (arr) => {
     return trans;
 }
 
-console.log(nums([10, 4, 6, 3, 8]));*/
+console.log(nums([10, 4, 6, 3, 8]));
 
-//12 не могу понять..как сделать правильно, запуталась 
+//12 
 
-const getLengthWords = (word) => {
-    const strLength = word.map((str) => str.Length);
-    return strLength;
+function getLengthWords(array) {
+
+    const numberArray = [];
+
+    for (let item of array) {
+        numberArray.push(item.length);
+    }
+     return numberArray;
 }
 
 console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
@@ -402,36 +407,88 @@ console.log(getLengthWords(['слово', '', 'слог', 'длинное пре
   console.log(filterPositive([-25, 25, 0, -1000, -2]));*/
 
 
+//2.7 
+//1
+/*
+    let str = 'js';
+    console.log(str.toUpperCase());
 
+//2
 
+    function searchStart(array) {
+        const newArray = [];
+        const str = 'ко';
 
+        for (let item of array) {
+        if (item.toLowerCase().startsWith(str.toLowerCase())) {
+            newArray.push(item);
+        }  
+    }
+    return newArray;
+    }
+    console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'));
 
+//3
+
+    let num = 32.58884;
+    console.log(Math.floor(num));
+    console.log(Math.ceil(num));
+    console.log(Math.round(num));
+
+//4
+
+    console.log(Math.max(52, 53, 49, 77, 21, 32));
+    console.log(Math.min(52, 53, 49, 77, 21, 32));
+
+//5
+
+    function getRandom(max) {
+        return Math.floor(Math.random() * max);
+    }
     
+    console.log(getRandom(10));
 
-    
+//6 
 
+    function getRandomArrNumbers(num) {
+        let randomMassivNumbers = [];
+        let randNumbs = Math.floor(num / 2);
+        for (i = 0; i < randNumbs; i++) {
+            randomMassivNumbers.push(Math.ceil(Math.random(num) * num));
+        }
+         return randomMassivNumbers;
+    }
 
+    console.log(getRandomArrNumbers(8));
 
+//7
 
+    const getRandomInt = (x, y) => {
+        return Math.round(Math.random() * (y - x)) + x;
+    }
 
+    console.log(getRandomInt(3, 12));
 
+//8
 
+    let currentDate = new Date();
+    console.log(currentDate);
 
+//9 
 
+    let currentDate = new Date();
+    currentDate.setDate(currentDate.getDate() + 73);
+    console.log(currentDate);
 
+//10
 
+    function getReturnDate(Date) {
+        const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+        const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+        let myDate = new Date();
+        
+        return "Дата: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + " " + "- это" + " " + days[myDate.getDay()] + " " + "Время: " +  myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+        
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    console.log(getReturnDate(Date));*/

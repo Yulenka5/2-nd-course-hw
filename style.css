@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 body {
     font-family: "Montserrat";
   }
@@ -92,6 +94,7 @@ body {
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
+    text-decoration: none;
     color: #FFFFFF;
 }
 .box-item:hover {
