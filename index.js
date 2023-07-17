@@ -492,3 +492,100 @@ console.log(getLengthWords(['слово', '', 'слог', 'длинное пре
     }
 
     console.log(getReturnDate(Date));*/
+
+
+/*const fibonacci = [1, 1, 2, 3, 5, 8];
+const onlyBigFib = fibonacci.filter(item=> item > 3);
+console.log(onlyBigFib);
+
+const fibonacci = [1, 1, 2, 3, 5, 8];
+const multipleByTwoFib = fibonacci.map(item=> (item * 2));
+console.log(multipleByTwoFib);
+
+const fibonacci = [1, 1, 2, 3, 5, 8];
+const plusTenFib = fibonacci.map(item=> (item + 10));
+console.log(plusTenFib);*/
+
+
+///2.8
+//1
+/*const people = [
+    { name: 'Глеб', age: 29 },
+    { name: 'Анна', age: 17 },
+    { name: 'Олег', age: 7 },
+    { name: 'Оксана', age: 47 }
+ ];
+
+ people.sort(function(a, b) {
+    if (a.age > b.age) {
+        return 1;
+    }
+    if (a.age < b.age) {
+        return -1;
+    }
+    return 0;
+ });
+
+ console.log(people.sort());
+
+ //2 
+    function filter(array, ruleFunction) {
+        let result = [];
+        for (i = 0; i < array.length; i++) {
+            if (ruleFunction(array[i])) {
+                result.push(array[i]);
+            }
+        }
+        return result;
+    }
+    
+    function isPositive(number) {
+     return number > 0;
+    }
+    function isMale(genus) {
+     return genus.gender === 'male';
+    }
+    
+    console.log(filter([3, -4, 1, 9], isPositive)); // Должен выводить [3, 1, 9]
+    
+    const people = [
+       {name: 'Глеб', gender: 'male'},
+       {name: 'Анна', gender: 'female'},
+       {name: 'Олег', gender: 'male'},
+       {name: 'Оксана', gender: 'female'}
+    ];
+    
+    console.log(filter(people, isMale)); // Должен выводить [{name: 'Глеб', gender: 'male'},  {name: 'Олег', gender: 'male'}]
+
+    //3 
+
+    let currentDate = new Date();
+    let timerId = setInterval(() => console.log(currentDate), 3000);
+    setTimeout(() => { clearInterval(timerId); console.log('30 секунд прошло'); }, 30000);
+
+    //4 
+
+    function delayForSecond(callback) {
+    setTimeout(callback, 1000);
+   }
+   
+   delayForSecond(function () {
+      console.log('Привет, Глеб!');
+   })
+
+   //5
+
+    function delayForSecond(cb) {
+        setTimeout(() => {
+            console.log('Прошла одна секунда');
+                    if(cb) { 	cb(); }
+
+        }, 1000)
+    }
+
+    function sayHi (name) {
+        console.log(`Привет, ${name}!`);
+    }
+
+    delayForSecond(() => sayHi('Глеб'));*/
+
