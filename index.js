@@ -589,3 +589,87 @@ console.log(plusTenFib);*/
 
     delayForSecond(() => sayHi('Глеб'));*/
 
+
+    // Практические задачи
+    
+    // 1 задание
+
+    function searchStart(string, letter) {
+        const stringArray = string.split('');
+        const filterPositive = stringArray.filter(i => i === letter).length;
+        if (filterPositive > 0) {
+            return filterPositive;
+            
+        } else {
+            return 0;
+        }
+    }
+
+    // 2 задание
+
+    function squareSum(numbers){
+        const square = numbers.map(num => (num ** 2));
+        const result = square.reduce((intermediate, value) => intermediate + value, 0);
+        return result;
+    }
+
+    // 3 задание
+
+    function nearestSq(n){
+        return Math.round(Math.sqrt(n)) ** 2;
+     }
+    
+    // 4 задание
+
+    function solution(str){
+        const word = str.split('');
+        const arrayWord = word.reverse();
+        return arrayWord.join('');
+      }
+
+    // 5 задание
+
+    function addLength(str) {
+        return str.split(" ").map((item) => item + " " + item.length);
+      }
+
+    // 6 задание
+
+    function mango(quantity, price){
+        const saleMango = Math.floor(quantity / 3);
+        return (quantity - saleMango) * price;
+      }
+
+    // 7 задание
+
+    function litres(time) {
+        return Math.floor(time / 2);
+       }
+    
+    // 8 задание
+
+    function invert(array) {
+        return  array.map((num) => typeof num === 'number' ? -num : num);
+     }
+
+    // 9 задание
+
+    function powersOfTwo(n){
+        const array = [];
+        for (i = 0; i <= n; i++) {
+        array.push(Math.pow(2, i));
+      }
+        return array;
+      }
+
+    // 10 задание
+
+    function grow(x){
+        return x.reduce((acc, val) => acc * val);
+        }
+
+
+  
+
+    
+   
